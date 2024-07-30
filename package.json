@@ -1,0 +1,29 @@
+{
+  "name": "paper-cup-flattener",
+  "version": "1.0.0",
+  "description": "纸杯展开图计算",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.myapp",
+    "productName": "纸杯展开图计算",
+    "directories": {
+      "output": "build"
+    },
+    "icon": "./asserts/papercup.png",
+    "win": {
+      "artifactName": "${productName}-v${version}-${platform}-${arch}-setup.${ext}",
+      "target": "nsis"
+    }
+  },
+  "author": "zhaomifan",
+  "devDependencies": {
+    "electron": "^31.3.0",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {}
+}
