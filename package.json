@@ -9,8 +9,8 @@
     "dist": "electron-builder"
   },
   "build": {
-    "appId": "com.example.myapp",
-    "productName": "一次性纸杯展开图计算",
+    "appId": "com.mifan",
+    "productName": "paper-cup-flattener",
     "directories": {
       "output": "build"
     },
