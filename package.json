@@ -16,14 +16,14 @@
     },
     "icon": "./asserts/papercup.png",
     "win": {
-      "artifactName": "${productName}-v${version}-${platform}-${arch}-setup.${ext}",
+      "artifactName": "${productName}-v${version}-setup.${ext}",
       "target": "nsis"
     }
   },
   "author": "zhaomifan",
   "devDependencies": {
-    "electron": "^31.3.0",
-    "electron-builder": "^24.13.3"
+    "electron": "31.3.0",
+    "electron-builder": "24.13.3"
   },
   "dependencies": {}
 }
